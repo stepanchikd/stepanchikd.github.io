@@ -1,0 +1,100 @@
+/*шрифт отступы внутрение*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*2header*/
+.header{
+    width: 100%;
+    color:rgb(229, 102, 102);
+    padding: 20px;
+    background: rgb(254, 210, 163);
+    box-sizing: border-box;
+}
+/*убераем пункты и нижнее подчеркиванье*/
+.menu-item {
+list-style: none;
+}
+.menu-link{
+    color: rgb(254, 0, 0);
+    text-decoration: none;
+    /*;bhysq ihban b pfukfdyst ,erde*/
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* вся шапка сайта в  контейнере*/
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* banner*/
+/* текст банера выравнивание по центру и меняем цвет*/
+.banner-title, .banner-discription{
+    text-align: center;
+    color: rgb(255, 177, 177),;
+}
+/* 2текст заголовка крупнее*/
+.banner-title{
+    font-size: 48px;
+}
+/*картинкой и отступы для баннера*/
+.banner-section{
+    padding: 60px 0px;
+    background: url(9f1f917dd81447a89e480203dc4eaa11.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*cards*/
+/* отступ для всего блока*/
+.cards-section{
+    padding: 50px 0px;
+}
+/*цвет и выпавнивание текста*/
+.cards-title, .cards-description {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+/*оформление карточки тенью сдвиг Х сдвиг У радиус размытия растяжение цвет содержимое по центру*/
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    width: 100%;
+    background: rgb(254, 210, 163);
+    box-shadow: 0px 2px 10px 0.3px #290fd1;
+    text-align: center;
+}
+.card:hover{
+box-shadow:0px 2px 20px 0.5px #290fd1;
+}
+/*кнопки и ссылки внутри кнопки*/
+.card-link {
+    text-decoration: none;
+    color: rgb(254, 0, 0);
+}
+.card-button{
+    text-align: center;
+    background: rgb(253, 158, 57);
+    padding: 10px 100px;
+    border-radius: 10px;
+}
+.card-button{
+    cursor: pointer;
+}
+/*добавим карточки и расположение карточки в ряд*/
+.card{
+    display: inline-block;
+    width: 20%;
+    margin: 0px 45px;
+}
+/*д
+/*Footer*/
+.footer{
+    background: url(fgf.jpeg);
+    background-size: cover;
+    padding: 100px 0px;
+}
+.copyright{
+    color: black;
+}
